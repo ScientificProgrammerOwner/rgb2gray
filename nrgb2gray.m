@@ -6,7 +6,7 @@ function gray = nrgb2gray(rgb,varargin)
     Input: RGB    -- M*3 or 3*M or M*N*3
            method -- The method must be one of ['rec601', 'itu709', 'itu2100', 'mean', 'light'].
            
-    Output: RGB(m*3).
+    Output: gray.
     
 
     Author(作者): 巴山(bashan)
